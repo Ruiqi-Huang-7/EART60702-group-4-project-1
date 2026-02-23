@@ -4,16 +4,16 @@
 **Exploring the Physical Mechanisms Behind Regional Climate Change**
 
 ## Project Overview
-This project is a comprehensive climate data analysis based on the Community Earth System Model (CESM) Large Ensemble Project. Our study focuses on a specific region in Cheshire, Northwest England, UK (Coordinates: **53.246° N, 2.5° W**). 
+This project is a comprehensive climate data analysis based on the Community Earth System Model Large Ensemble Project. Our study focuses on a specific region in Cheshire, Northwest England, UK (Coordinates: **53.246° N, 2.5° W**). 
 
 Historically, this region features a typical temperate maritime climate strongly influenced by the Atlantic Ocean and the Gulf Stream. However, by analyzing 75 years of daily climate projection data (2006–2080), this project moves beyond simple temperature statistics to uncover the underlying physical drivers. We demonstrate how **Radiative Forcing** and **Thermodynamic Positive Feedback** are irreversibly pushing the regional climate into a higher-energy state characterized by "warmer, wetter, and more extreme fluctuations."
 
 ---
 
 ## File Structure
-* `project_1.csv`: The raw climate dataset containing daily projections from 2006 to 2080 (variables include temperature, precipitation, net solar radiation, specific humidity, etc.).
-* `project-1_5.0.ipynb`: The core Jupyter Notebook containing data preprocessing, unit conversions, statistical analysis (linear regression), and all data visualizations.
-* `Project_1_final.pptx`: The presentation slides summarizing our analytical framework, physical mechanisms, and key takeaways.
+* `project_1.csv`: The raw climate dataset containing daily projections from 2006 to 2080.
+* `project-1_5.0.ipynb`: The core Jupyter Notebook containing all data preprocessing, statistical analysis (linear regression), and data visualizations (styled for dark mode presentations).
+* `Project_1_final.pptx` / `Project_1_final.pdf`: The final presentation slides summarizing our analytical framework, physical mechanisms, and key takeaways (provided in both editable PPTX and easily viewable PDF formats).
 * `README.md`: This project documentation file.
 
 ---
