@@ -67,24 +67,20 @@ Date: 26 February 2026
 
 ## 1. At the Beginning
 
-When I first opened the Excel file for this project, to be honest, I felt a bit lost. The table had a huge amount of daily climate data for 75 years. There were so many short names in the table headers (like `TREFHT`, `FSNS`, `QBOT`), and I had to search for their meanings one by one. I really didn't know how to start.
+When I first received the raw dataset for this project, I honestly felt quite overwhelmed. The Excel file contained a massive and complex amount of daily climate data spanning 75 years, and looking at the numerous abbreviated column headers, I didn't even know where to begin.
 
 Luckily, our professor and the GTAs helped us a lot. None of the three members in our group had learned programming before, so we were totally beginners. The teachers taught us step by step. They also guided us to think about what the data really means, what topic we should choose, and what kind of charts we should draw. 
 
 ## 2. Learning Python and Fixing Bugs
 
-In our group, I was mainly in charge of "integrating the code" and "drawing the annual trend and scatter plots". Because I didn't know how to write code, I went to Bilibili and watched a Python tutorial for beginners made by "Shangguigu" (尚硅谷). From the videos, I learned the basics of data analysis and visualization using `numpy`, `pandas`, and `matplotlib`.
-
-When I tried to put my teammates' code together, it was not easy. I often met bugs and errors. When that happened, I would look at the error messages in PyCharm to see what was wrong, or sometimes I used AI to help me find the syntax mistakes. Through this process, my coding skills improved a lot.
+As the team member primarily responsible for "integrating the code" and "plotting the annual trend and scatter plots," I knew I had to step out of my comfort zone. I took the initiative to learn Python from scratch by watching a beginner’s tutorial ("Shangguigu") on Bilibili.This gave me a foundational understanding of data analysis and visualization using numpy, pandas, and matplotlib. Integrating the code written by different team members was not always smooth. I frequently encountered bugs and errors. However, instead of panicking, I learned to carefully read the error messages in PyCharm and occasionally consulted AI tools to troubleshoot and refine our scripts.
 
 ## 3. A Discovery About Climate Change
 
-Before doing this project, my understanding of "climate change" was very simple. I just thought it meant the temperature goes up because of greenhouse gases. 
+Before this project, my understanding of "climate change" was quite superficial—I thought it was simply about temperature rising due to greenhouse gases.
 
 But things changed when our group finished the Correlation Matrix and the scatter plots. I was surprised to find that the data perfectly matched the **Clausius-Clapeyron relation**. I realized that Surface Net Solar Radiation (`FSNS`) and Specific Humidity (`QBOT`) are also very important reasons that cause climate change. It is a complicated system. The high humidity actually makes the warming effect even worse. This was a big discovery for me.
 
 ## 4. Personal Growth
 
-This project was a great learning experience for me. In the past, I only knew how to use Excel and Origin to draw simple charts. But for a huge dataset with tens of thousands of rows like this one, Python is much faster, more convenient, and has fewer mistakes. 
-
-I am really glad that I learned how to use Python to process data. I also learned how to find the real physical rules behind a huge table of numbers. I believe these skills will be very helpful for my future studies.
+Looking back, this project has been a tremendous learning experience. Previously, I only knew how to use Excel or Origin for data plotting. However, dealing with a dataset containing tens of thousands of rows made me realize the sheer power of Python. It is significantly more efficient, scalable, and less prone to manual errors when handling large-scale data. Beyond just acquiring new programming skills, this project transformed how I view environmental data science—teaching me how to extract meaningful physical mechanisms from what initially looked like an intimidating wall of numbers.
